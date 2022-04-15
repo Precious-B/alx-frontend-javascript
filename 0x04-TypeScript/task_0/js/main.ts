@@ -6,20 +6,20 @@ interface Student {
 }
 
 const James: Student = {
-  firstName: "James",
-  lastName: "Mwangi",
-  age: 24,
-  location: "Lavington",
+  firstName: "Mary",
+  lastName: "Tshekiso",
+  age: 21,
+  location: "Mogoditshane",
 };
 
 const Sheila: Student = {
-  firstName: "Sheila",
-  lastName: "Kioko",
-  age: 25,
-  location: "Lavington",
+  firstName: "Gape",
+  lastName: "Mmoloki",
+  age: 22,
+  location: "Tlokweng",
 };
 
-const StudentsList: Array<Student> = [ James, Sheila ];
+const StudentsList: Array<Student> = [ Mary, Gape ];
 
 const body: HTMLBodyElement = document.getElementsByTagName("body")[0];
 const table: HTMLTableElement = document.createElement("table");
